@@ -1,0 +1,47 @@
+//funçao ao clicla rolagem automatica BOTAO VERCARDAPIO
+
+document.getElementById('btnVerCardapio').addEventListener('click', function (event) {
+    event.preventDefault(); // Impede comportamento padrão
+    document.getElementById('cardapio').scrollIntoView({
+        behavior: 'smooth' // Ativa a rolagem suave
+    });
+});
+
+
+//funçao ao clicla rolagem automatica MENU - RESERVA
+
+document.getElementById('btnReserva').addEventListener('click', function (event) {
+    event.preventDefault(); // Impede comportamento padrão
+    document.getElementById('reserva').scrollIntoView({
+        behavior: 'smooth' // Ativa a rolagem suave
+    });
+});
+
+
+//funçao ao clicla rolagem automatica MENU - SERVIÇOS
+
+document.getElementById('btnServiços').addEventListener('click', function (event) {
+    event.preventDefault(); // Impede comportamento padrão
+    document.getElementById('serviços').scrollIntoView({
+        behavior: 'smooth' // Ativa a rolagem suave
+    });
+});
+
+//funçao ao clicla rolagem automatica MENU - SERVIÇOS
+
+document.getElementById('BtnCapioMenu').addEventListener('click', function (event) {
+    event.preventDefault(); // Impede comportamento padrão
+    document.getElementById('cardapio').scrollIntoView({
+        behavior: 'smooth' // Ativa a rolagem suave
+    });
+});
+
+
+//funçao ao clicla rolagem automatica MENU - DEPOIMENTOS
+
+document.getElementById('btnDepoimento').addEventListener('click', function (event) {
+    event.preventDefault(); // Impede comportamento padrão
+    document.getElementById('depoimentos').scrollIntoView({
+        behavior: 'smooth' // Ativa a rolagem suave
+    });
+});

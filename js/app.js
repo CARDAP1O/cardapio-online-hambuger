@@ -605,6 +605,8 @@ cardapio.metodo = {
     },
 
 
+    
+
 
 
     //mensagens
@@ -626,14 +628,11 @@ cardapio.metodo = {
             }, 800); // Deve corresponder ao tempo da animação `fadeOutUp`
         }, tempo);
     },
-
-    
-    
-    
-    
-
-
 };
+
+   
+    
+
 
 cardapio.templates = {
     item: `
